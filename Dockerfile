@@ -15,4 +15,5 @@ RUN rm /tmp/temp.zip
 
 WORKDIR /app/jailer
 
-CMD sh jailer.sh
+ENTRYPOINT ["sh", "jailer.sh"]
+CMD []
